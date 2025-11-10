@@ -1,4 +1,4 @@
-# Minu: 6 deep learning models for Medical Image Analysis to predict future risk of lung cancer over several subsequent years.
+# Minu: Deep learning models for Medical Image Analysis to predict future risk of lung cancer over several subsequent years.
 
 A comprehensive framework for medical image analysis, focusing on feature extraction and data processing for lung cancer risk prediction from LDCT scans.
 Sybil is used as pure feature extrator. The preprocessing.py is identical and compatible to Sybil preprocessing pipeline, now is ready to be used for any external LDCT sets as well as NLST dataset.
@@ -19,6 +19,26 @@ cd Minu
 ```bash
 pip install -r requirements.txt
 ```
+
+
+## Pipeline Overview
+
+```
+Raw DICOM Files
+      ↓
+[preprocessing.py]
+      ↓
+Preprocessed Volumes (.pt)
+      ↓
+ Feature Extraction
+      ↓
+Resnet features, Attention features, Final embeddings
+      ↓
+Deep Learning Models
+      ↓
+BiFusion, TriFusion, Hybrid 
+```
+
 
 ## Usage
 
