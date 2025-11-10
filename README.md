@@ -11,7 +11,7 @@ This project provides a complete pipeline for processing and analyzing medical i
 
 1. Clone the repository:
 ```bash
-git git@github.com:hajami0802/Minu.git
+git clone git@github.com:hajami0802/Minu.git
 cd Minu
 ```
 
