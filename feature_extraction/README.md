@@ -19,21 +19,21 @@ pip install -r requirements.txt
 ```
 
 ## Usage
---input.csv for all commands are the csv file that output from preprocessing.py 
+--preprocessed_output.csv for all commands are the csv file that output from preprocessing.py 
 
 ### Global ResNet Features: Encoded features
 ```bash
-python extract_features.py global --csv input.csv --checkpoint_dir ./checkpoints --output_dir ./resnet_features --output_csv resnet_features.csv
+python extract_features.py global --csv preprocessed_output.csv --checkpoint_dir ./checkpoints --output_dir ./resnet_features --output_csv resnet_features.csv
 ```
 
 ### Local Features: Attention features extracted from multi attentions guided mechanism in Sybil.
 ```bash
-python extract_features.py local --csv input.csv --checkpoint_dir ./checkpoints --output_dir ./local_features --output_csv local_features.csv
+python extract_features.py local --csv preprocessed_output.csv --checkpoint_dir ./checkpoints --output_dir ./local_features --output_csv local_features.csv
 ```
 
 ### Final Embeddings
 ```bash
-python extract_features.py final --csv input.csv --checkpoint_dir ./checkpoints --output_dir ./finalembeddings_features --output_csv finalembeddings_features.csv
+python extract_features.py final --csv preprocessed_output.csv --checkpoint_dir ./checkpoints --output_dir ./finalembeddings_features --output_csv finalembeddings_features.csv
 ```
 
 ## Input Format

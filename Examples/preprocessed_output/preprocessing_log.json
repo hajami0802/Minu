@@ -1,0 +1,320 @@
+{
+  "106513": {
+    "pid": "106513",
+    "processing_date": "2025-11-10T10:06:19.530652",
+    "timepoints": {
+      "T0": {
+        "timepoint": "T0",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/106513/01-02-1999-NLST-LSS-62698/1.000000-0OPLGELSQXAnullna1200.00.0null-53287",
+        "status": "skipped",
+        "reason": "Localizer scan: ImageType indicates localizer: ['ORIGINAL', 'PRIMARY', 'LOCALIZER']",
+        "input_info": {},
+        "output_info": {}
+      },
+      "T1": {
+        "timepoint": "T1",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/106513/01-02-2000-NLST-LSS-52758/3.000000-1OPAGELSQXB3332.512064.00.11.5-40130",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 125,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.650391,
+            0.650391
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.03445002809166908,
+          "std": 0.7985965013504028,
+          "min": -1.4701192378997803,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/106513/01-02-2000-NLST-LSS-52758/3.000000-1OPAGELSQXB3332.512064.00.11.5-40130_preprocessed.pt"
+        }
+      },
+      "T2": {
+        "timepoint": "T2",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/106513/01-02-2001-NLST-LSS-02494/3.000000-2OPAGELSQXB3372.512064.00.11.5-52307",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 125,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.658203,
+            0.658203
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.01610472984611988,
+          "std": 0.8029779195785522,
+          "min": -1.4701192378997803,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/106513/01-02-2001-NLST-LSS-02494/3.000000-2OPAGELSQXB3372.512064.00.11.5-52307_preprocessed.pt"
+        }
+      }
+    }
+  },
+  "106639": {
+    "pid": "106639",
+    "processing_date": "2025-11-10T10:06:22.668727",
+    "timepoints": {
+      "T0": {
+        "timepoint": "T0",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/106639/01-02-1999-NLST-LSS-45699/2.000000-0OPAGEHSQXD3402.512056.00.11.5-01464",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 125,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.664062,
+            0.664062
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.027458978816866875,
+          "std": 0.8051100969314575,
+          "min": -1.4701192378997803,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/106639/01-02-1999-NLST-LSS-45699/2.000000-0OPAGEHSQXD3402.512056.00.11.5-01464_preprocessed.pt"
+        }
+      },
+      "T1": {
+        "timepoint": "T1",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/106639/01-02-2000-NLST-LSS-49240/2.000000-1OPAGEHSQXD3402.512056.00.11.5-19536",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 110,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.664062,
+            0.664062
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.0017126270104199648,
+          "std": 0.7484665513038635,
+          "min": -1.4701192378997803,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/106639/01-02-2000-NLST-LSS-49240/2.000000-1OPAGEHSQXD3402.512056.00.11.5-19536_preprocessed.pt"
+        }
+      },
+      "T2": {
+        "timepoint": "T2",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/106639/01-02-2001-NLST-LSS-78586/1.000000-2OPLGEHSQXDnullna800.00.0null-19027",
+        "status": "skipped",
+        "reason": "Localizer scan: ImageType indicates localizer: ['ORIGINAL', 'PRIMARY', 'LOCALIZER']",
+        "input_info": {},
+        "output_info": {}
+      }
+    }
+  },
+  "107573": {
+    "pid": "107573",
+    "processing_date": "2025-11-10T10:06:25.297206",
+    "timepoints": {
+      "T0": {
+        "timepoint": "T0",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/107573/01-02-1999-NLST-LSS-08295/1.000000-0OPAGELSPLUSD3602.512080.00.10.75-25317",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 117,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.703125,
+            0.703125
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.058422718197107315,
+          "std": 0.7181432843208313,
+          "min": -0.8315499424934387,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/107573/01-02-1999-NLST-LSS-08295/1.000000-0OPAGELSPLUSD3602.512080.00.10.75-25317_preprocessed.pt"
+        }
+      },
+      "T1": {
+        "timepoint": "T1",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/107573/01-02-2000-NLST-LSS-19564/1.000000-1OPAGELSPLUSLUNG3602.512080.00.11.5-27520",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 117,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.703125,
+            0.703125
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.1078752875328064,
+          "std": 0.7179981470108032,
+          "min": -0.8315499424934387,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/107573/01-02-2000-NLST-LSS-19564/1.000000-1OPAGELSPLUSLUNG3602.512080.00.11.5-27520_preprocessed.pt"
+        }
+      },
+      "T2": {
+        "timepoint": "T2",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/107573/01-02-2001-NLST-LSS-66605/1.000000-2OPATOAQUL4C359.43-39057",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 105,
+          "slice_thickness_mm": 3.0,
+          "pixel_spacing_mm": [
+            0.702,
+            0.702
+          ],
+          "manufacturer": "TOSHIBA",
+          "thickness_status": "External validation (2.5-10mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.026945000514388084,
+          "std": 0.880296528339386,
+          "min": -1.4701192378997803,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/107573/01-02-2001-NLST-LSS-66605/1.000000-2OPATOAQUL4C359.43-39057_preprocessed.pt"
+        }
+      }
+    }
+  },
+  "126917": {
+    "pid": "126917",
+    "processing_date": "2025-11-10T10:06:29.312460",
+    "timepoints": {
+      "T0": {
+        "timepoint": "T0",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/126917/01-02-1999-NLST-LSS-93895/1.000000-0OPAGELSPLUSD3392.512080.00.10.75-40332",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 123,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.662109,
+            0.662109
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.1568199098110199,
+          "std": 0.6934803128242493,
+          "min": -0.8315499424934387,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/126917/01-02-1999-NLST-LSS-93895/1.000000-0OPAGELSPLUSD3392.512080.00.10.75-40332_preprocessed.pt"
+        }
+      },
+      "T1": {
+        "timepoint": "T1",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/126917/01-02-2000-NLST-LSS-59596/1.000000-1OPAGELSPLUSLUNG3402.512080.00.11.5-32807",
+        "status": "success",
+        "reason": null,
+        "input_info": {
+          "num_dicom_files": 122,
+          "slice_thickness_mm": 2.5,
+          "pixel_spacing_mm": [
+            0.664062,
+            0.664062
+          ],
+          "manufacturer": "GE MEDICAL SYSTEMS",
+          "thickness_status": "Standard NLST (\u22642.5mm)"
+        },
+        "output_info": {
+          "shape": [
+            1,
+            3,
+            200,
+            256,
+            256
+          ],
+          "mean": 0.13924475014209747,
+          "std": 0.6901364326477051,
+          "min": -0.8315499424934387,
+          "max": 1.4661242961883545,
+          "preprocessed_path": "...Minu/Examples/preprocessed_output/126917/01-02-2000-NLST-LSS-59596/1.000000-1OPAGELSPLUSLUNG3402.512080.00.11.5-32807_preprocessed.pt"
+        }
+      },
+      "T2": {
+        "timepoint": "T2",
+        "dicom_path": "...Minu/Examples/raw_dcm_file/126917/01-02-2001-NLST-LSS-74483/1.000000-2OPLTOAQUL4FL01500na-78874",
+        "status": "skipped",
+        "reason": "Localizer scan: ImageType indicates localizer: ['ORIGINAL', 'PRIMARY', 'LOCALIZER']",
+        "input_info": {},
+        "output_info": {}
+      }
+    }
+  }
+}

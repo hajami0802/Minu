@@ -63,3 +63,7 @@ Thumbs.db
 # Git LFS
 git-lfs-3.4.0/git-lfs-3.4.0/
 
+!Examples/
+!Examples/**
+!Examples/**/*.csv
+!Examples/**/*.json
