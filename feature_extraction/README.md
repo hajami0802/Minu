@@ -75,6 +75,14 @@ NumPy array containing final ensemble embeddings
 - CUDA-capable GPU (recommended)
 - Pre-trained Sybil checkpoints
 
+## Troubleshooting
+
+### Common Issues
+
+**"No volT0/volT1/volT2 columns found"**
+- Ensure you're using the CSV output from preprocessing.py
+- The CSV must contain `volT0`, `volT1`, and/or `volT2` columns
+
 ## Author
 
 Hanieh Ajami
