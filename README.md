@@ -1,6 +1,7 @@
-# Medical Image Analysis Framework: Minu
+# Minu: 6 deep learning models for Medical Image Analysis to predict future risk of lung cancer over several subsequent years.
 
-A comprehensive framework for medical image analysis, focusing on feature extraction and data processing for lung cancer risk prediction from CT scans.
+A comprehensive framework for medical image analysis, focusing on feature extraction and data processing for lung cancer risk prediction from LDCT scans.
+Sybil is used as pure feature extrator. The preprocessing.py is identical and compatible to Sybil preprocessing pipeline, now is ready to be used for any external LDCT sets as well as NLST dataset.
 
 ## Project Overview
 
@@ -11,7 +12,7 @@ This project provides a complete pipeline for processing and analyzing medical i
 1. Clone the repository:
 ```bash
 git git@github.com:hajami0802/Minu.git
-cd Meenu
+cd Minu
 ```
 
 2. Install dependencies:
@@ -35,6 +36,19 @@ Extract features from preprocessed LDCT scans using Sybil's 5-checkpoint ensembl
 
 ## Contact
 
-Hanieh Ajami - [@hajami0802](https://github.com/hajami0802)
+Hanieh Ajami - Hanieh.ajam@moffitt.org
 
 Project Link: [https://github.com/hajami0802/Minu.git](https://github.com/hajami0802/Minu.git)
+
+## Reference and Citation
+@article{mikhael2023sybil,
+  title={Sybil: a validated deep learning model to predict future lung cancer risk from a single low-dose chest computed tomography},
+  author={Mikhael, Peter G and Wohlwend, Jeremy and Yala, Adam and others},
+  journal={Journal of Clinical Oncology},
+  volume={41},
+  number={12},
+  pages={2191--2200},
+  year={2023},
+  publisher={American Society of Clinical Oncology}
+}
+
