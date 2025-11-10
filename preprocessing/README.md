@@ -1,6 +1,6 @@
 # DICOM Preprocessing for Lung Cancer Risk Prediction
 
-A comprehensive preprocessing pipeline for CT DICOM series that handles longitudinal time-point scans (T0, T1, T2). The preprocessed outputs are compatible with deep learning models for lung cancer risk prediction feature extraction.
+A comprehensive preprocessing pipeline for LDCT DICOM series that handles longitudinal time-point scans (T0, T1, T2). The preprocessed outputs are compatible with deep learning models for lung cancer risk prediction feature extraction.
 
 ## ✨ Features
 
@@ -38,23 +38,16 @@ Output files are automatically named as `{input_folder_name}_preprocessed.pt`.
 Process multiple series from a CSV file with multi-timepoint support:
 
 ```bash
-python preprocessing.py batch \
-    --csv input_data.csv \
-    --output_dir ./preprocessed \
-    --output_csv preprocessed_output.csv
+python preprocessing.py batch --csv input_data.csv --output_dir ./preprocessed --output_csv preprocessed_output.csv
 ```
 
 **Resume interrupted processing:**
 
 ```bash
-python preprocessing.py batch \
-    --csv input_data.csv \
-    --output_dir ./preprocessed \
-    --output_csv preprocessed_output.csv \
-    --resume-from PATIENT_ID
+python preprocessing.py batch --csv input_data.csv --output_dir ./preprocessed --output_csv preprocessed_output.csv --resume-from PATIENT_ID
 ```
 
-> **Note**: After preprocessing, the output volumes can be used for feature extraction with deep learning models.
+> **Note**: After preprocessing, the output volumes can be used for feature extraction with deep learning models. Use the csv file obtained from here for feature extraction section.
 
 ## Input Format
 
@@ -117,53 +110,3 @@ For batch processing, a detailed `preprocessing_log.json` file is created with s
 - `rejected`: Thickness exceeds threshold ❌
 - `not_requested`: Flag not set to 1 ⏭️
 - `already_processed`: Output file exists ⏭️
-
-## Pipeline Overview
-
-```
-Raw DICOM Files
-      ↓
-[preprocessing.py]
-      ↓
-Preprocessed Volumes (.pt)
-      ↓
-Deep Learning Feature Extraction
-```
-
-## Requirements
-
-See `requirements.txt` for full dependencies. Key requirements:
-- Python ≥ 3.8
-- PyTorch ≥ 2.0.0
-- pydicom ≥ 2.4.0
-- torchio ≥ 0.19.0
-
-## Troubleshooting
-
-### Common Issues
-
-**"No volT0/volT1/volT2 columns found"**
-- Ensure you're using the CSV output from preprocessing.py
-- The CSV must contain `volT0`, `volT1`, and/or `volT2` columns
-
-## Citation
-
-If you use this preprocessing pipeline, please cite:
-
-```bibtex
-@article{sybil2023,
-  title={A Deep Learning Model to Predict Lung Cancer Risk from Chest CT Scans},
-  author={...},
-  journal={...},
-  year={2023}
-}
-```
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Author
-
-Hanieh Ajami  
-Repository: https://github.com/hajami0802/Lung-Cancer-Risk-Prediction
