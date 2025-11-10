@@ -59,3 +59,7 @@ Resnet-features/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Git LFS
+git-lfs-3.4.0/git-lfs-3.4.0/
+
