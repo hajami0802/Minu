@@ -54,11 +54,6 @@ Extract features from preprocessed LDCT scans using Sybil's 5-checkpoint ensembl
 
 📖 **[Full Documentation](feature_extraction/README.md)**
 
-## Contact
-
-Hanieh Ajami - Hanieh.ajam@moffitt.org
-
-Project Link: [https://github.com/hajami0802/Minu.git](https://github.com/hajami0802/Minu.git)
 
 ## Reference and Citation
 @article{mikhael2023sybil,
